@@ -1,0 +1,20 @@
+%YAML1.2
+---
+# See http://www.sublimetext.com/docs/3/syntax.html
+name: Bamboo Log
+file_extensions:
+  - log
+scope: source.bamboo-log
+contexts:
+  main:
+    - match: '^build.*$'
+      scope: bamboo.log.line.build
+
+    - match: '^command.*$'
+      scope: bamboo.log.line.command
+
+    - match: '^error.*$'
+      scope: bamboo.log.line.error
+
+    - match: '^simple.*$'
+      scope: bamboo.log.line.simple

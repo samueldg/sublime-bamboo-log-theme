@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>name</key>
+    <string>Bamboo-Log</string>
+    <key>settings</key>
+    <array>
+        <dict>
+            <key>scope</key>
+            <string>bamboo.log.line.error</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#DA2000</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>bamboo.log.line.build</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#00FF00</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>bamboo.log.line.command</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#0000FF</string>
+            </dict>
+        </dict>
+    </array>
+    <key>uuid</key>
+    <string>D5D3A964-5F3D-4C1D-A0C6-74A752595053</string>
+</dict>
+</plist>
